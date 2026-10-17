@@ -1,0 +1,42 @@
+#profile-title: ⛳ RULE VPN
+#profile-desc: ⚠️Пожайлуста не скачивайте торренты
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@45.132.179.12:9881?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabb&type=grpc&serviceName=grpc-tunnel&mode=gun#Эстония 🇪🇪
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@168.113.252.93:9892?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&mode=gun#Италия 🇮🇹
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@168.113.252.7:9892?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&mode=gun#Италия 🇮🇹 2
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@37.230.192.30:9892?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&mode=gun#Италия 🇮🇹 3
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@45.132.179.64:9881?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aa&type=grpc&serviceName=grpc-tunnel&mode=gun#Литва 🇱🇹
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@82.202.142.29:9881?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aa&type=grpc&serviceName=grpc-tunnel&mode=gun#Польша 🇵🇱
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@45.132.178.222:9892?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aa&type=grpc&serviceName=grpc-tunnel&mode=gun#Польша 🇵🇱 2
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@45.132.178.222:9892?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabb&type=grpc&serviceName=grpc-tunnel&mode=gun#Польша 🇵🇱 3
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@82.202.137.34:9844?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aa&type=grpc&serviceName=grpc-tunnel&mode=gun#Польша 🇵🇱 4
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.108.246.58:9880?encryption=none&security=reality&sni=dl.google.com&fp=random&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aa&type=grpc&serviceName=grpc-tunnel&mode=gun#Франция 🇫🇷
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@168.113.252.137:9880?encryption=none&security=reality&sni=dl.google.com&fp=chrome&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&mode=gun#Франция 🇫🇷 2
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.108.241.243:9882?encryption=none&security=reality&sni=dl.google.com&fp=random&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabb&type=grpc&serviceName=grpc-tunnel&mode=gun#Франция 🇫🇷 3
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.108.243.18:9881?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabb&type=grpc&serviceName=grpc-tunnel&mode=gun#Швеция 🇸🇪
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@45.132.179.211:9872?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=sm3E3hjmT6_Gmg_O9rBz4nfXYrHpnl6-LvcCp6T6_xc&sid=aabb&type=grpc&serviceName=grpc-tunnel&mode=gun#Швеция 🇸🇪 2
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.109.106.170:9872?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=sm3E3hjmT6_Gmg_O9rBz4nfXYrHpnl6-LvcCp6T6_xc&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&mode=gun#Швеция 🇸🇪 3
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@45.132.178.177:9872?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=sm3E3hjmT6_Gmg_O9rBz4nfXYrHpnl6-LvcCp6T6_xc&sid=aabb&type=grpc&serviceName=grpc-tunnel&mode=gun#Швеция 🇸🇪 4
+
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?encryption=none&security=none#Обходы БС👇
+
+hysteria2://082f5694-9019-4110-b67b-8125dbb9bab8@outh.yandex-cloud.org:54183/?sni=outh.yandex-cloud.org#Германия 🇩🇪 Обход
+
+vless://1281acca-f21d-475c-bf04-eccbee7f8df2@168.113.215.6:33736?encryption=none&security=none&type=ws&host=nl-2a972c8052.shamanapp.online&path=%2Fvmess-ws#Нидерланды 🇳🇱 Обход
+
+hysteria2://082f5694-9019-4110-b67b-8125dbb9bab8@outh.yandex-cloud.org:54183/?sni=outh.yandex-cloud.org#Нидерланды 🇳🇱 Обход 2
