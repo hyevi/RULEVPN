@@ -37,6 +37,8 @@ vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?encryption=none&securit
 
 hysteria2://082f5694-9019-4110-b67b-8125dbb9bab8@outh.yandex-cloud.org:54183/?sni=outh.yandex-cloud.org#Германия 🇩🇪 Обход
 
+
+vless://b1babf7b-442f-4a68-ac7e-e84127b35d5b@188.130.209.211:443?encryption=none&security=reality&sni=promo-digitalwb.ru&fp=firefox&pbk=G4fqCmAVU43HdjV43q-USF8wRgPt8Ld3L7_msJyfTo&sid=fc1b2a12a84ea61b&type=tcp&flow=xtls-rprx-vision#Германия 🇩🇪 | Обход 2
 vless://1281acca-f21d-475c-bf04-eccbee7f8df2@168.113.215.6:33736?encryption=none&security=none&type=ws&host=nl-2a972c8052.shamanapp.online&path=%2Fvmess-ws#Нидерланды 🇳🇱 Обход
 
 hysteria2://082f5694-9019-4110-b67b-8125dbb9bab8@outh.yandex-cloud.org:54183/?sni=outh.yandex-cloud.org#Нидерланды 🇳🇱 Обход 2
