@@ -9,6 +9,10 @@ vless://5d16ac22-6eea-426f-b778-6f4c2961faef@168.113.252.7:9892?encryption=none&
 
 vless://5d16ac22-6eea-426f-b778-6f4c2961faef@37.230.192.30:9892?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&mode=gun#Италия 🇮🇹 3
 
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@45.132.177.8:9882?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&mode=gun#Казахстан 🇰🇿
+
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@168.113.254.253:9882?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aa&type=grpc&serviceName=grpc-tunnel&mode=gun#Казахстан 🇰🇿 2
+
 vless://5d16ac22-6eea-426f-b778-6f4c2961faef@45.132.179.64:9881?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aa&type=grpc&serviceName=grpc-tunnel&mode=gun#Литва 🇱🇹
 
 vless://5d16ac22-6eea-426f-b778-6f4c2961faef@82.202.142.29:9881?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aa&type=grpc&serviceName=grpc-tunnel&mode=gun#Польша 🇵🇱
