@@ -1,6 +1,8 @@
 #profile-title: ⛳ RULE VPN
 #profile-desc: ⚠️Пожайлуста не скачивайте торренты
 
+vless://75079a7f-75b5-418b-8a65-f7b2f438cd4a@159.195.240.82:443?encryption=none&security=reality&sni=vie1.tsumshop.org&fp=firefox&pbk=tzOeyilk2VtPXZ_BJ2IOZcGtsnn41ZHBa9dE6s9sfiQ&sid=c8c75aaf699259b4&type=tcp&flow=xtls-rprx-vision#Европа 🇪🇺 | Авто
+
 vless://5d16ac22-6eea-426f-b778-6f4c2961faef@45.132.179.12:9881?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabb&type=grpc&serviceName=grpc-tunnel&mode=gun#Эстония 🇪🇪
 
 vless://5d16ac22-6eea-426f-b778-6f4c2961faef@168.113.252.93:9892?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU&sid=aabbccdd&type=grpc&serviceName=grpc-tunnel&mode=gun#Италия 🇮🇹
