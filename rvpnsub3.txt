@@ -75,12 +75,6 @@
     "routing": {"domainMatcher": "hybrid", "domainStrategy": "IPIfNonMatch", "rules": [{"type": "field", "protocol": ["bittorrent"], "outboundTag": "direct"}, {"type": "field", "ip": ["geoip:private"], "outboundTag": "direct"}, {"type": "field", "network": "tcp,udp", "outboundTag": "proxy"}]}
   },
   {
-    "remarks": "🇸🇪 Швеция",
-    "inbounds": [{"tag": "socks", "port": 10808, "listen": "127.0.0.1", "protocol": "socks", "settings": {"udp": true, "auth": "noauth"}, "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}}, {"tag": "http", "port": 10809, "listen": "127.0.0.1", "protocol": "http", "settings": {"allowTransparent": false}, "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}}],
-    "outbounds": [{"tag": "proxy", "protocol": "vless", "settings": {"vnext": [{"address": "179.253.179.109", "port": 54443, "users": [{"id": "0ef03752-c8bf-4482-8710-e563ca4808f9", "encryption": "none", "flow": ""}]}]}, "streamSettings": {"network": "tcp", "security": "tls", "tlsSettings": {"serverName": "177.3.215.54", "fingerprint": "chrome"}}}, {"tag": "direct", "protocol": "freedom"}, {"tag": "block", "protocol": "blackhole"}],
-    "routing": {"domainMatcher": "hybrid", "domainStrategy": "IPIfNonMatch", "rules": [{"type": "field", "protocol": ["bittorrent"], "outboundTag": "direct"}, {"type": "field", "ip": ["geoip:private"], "outboundTag": "direct"}, {"type": "field", "network": "tcp,udp", "outboundTag": "proxy"}]}
-  },
-  {
     "remarks": "🇫🇷 Франция",
     "inbounds": [{"tag": "socks", "port": 10808, "listen": "127.0.0.1", "protocol": "socks", "settings": {"udp": true, "auth": "noauth"}, "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}}, {"tag": "http", "port": 10809, "listen": "127.0.0.1", "protocol": "http", "settings": {"allowTransparent": false}, "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}}],
     "outbounds": [{"tag": "proxy", "protocol": "vless", "settings": {"vnext": [{"address": "179.253.179.109", "port": 41443, "users": [{"id": "eeeab84f-aeb0-40bb-b317-5da94cda6c78", "encryption": "none", "flow": ""}]}]}, "streamSettings": {"network": "tcp", "security": "tls", "tlsSettings": {"serverName": "177.3.220.101", "fingerprint": "chrome"}}}, {"tag": "direct", "protocol": "freedom"}, {"tag": "block", "protocol": "blackhole"}],
@@ -107,6 +101,68 @@
     "inbounds": [{"tag": "socks", "port": 10808, "listen": "127.0.0.1", "protocol": "socks", "settings": {"udp": true, "auth": "noauth"}, "sniffing": {"enabled": true, "destOverride": ["http", "tls"]}}, {"tag": "http", "port": 10809, "listen": "127.0.0.1", "protocol": "http", "settings": {}}],
     "outbounds": [{"protocol": "vless", "settings": {"vnext": [{"address": "c3f630g.es4.h1clayd.click", "port": 443, "users": [{"id": "fafc7c16-f890-45ee-a856-02df225172dd", "encryption": "none"}]}]}, "streamSettings": {"network": "grpc", "security": "reality", "realitySettings": {"serverName": "c3f630g.es4.h1clayd.click", "publicKey": "BzM-6A4DGbjpquuwUmotiamNZlamur11IXX5Xyh_wBg", "shortId": "2d2d5faf568b584d", "fingerprint": "firefox"}, "grpcSettings": {"serviceName": "7e802b075a7c"}}, "tag": "proxy"}, {"tag": "direct", "protocol": "freedom"}, {"tag": "block", "protocol": "blackhole"}],
     "routing": {"domainStrategy": "AsIs", "rules": []}
+  },
+  {
+    "remarks": "🇫🇮 Финляндия",
+    "inbounds": [{"tag": "socks", "port": 10808, "listen": "127.0.0.1", "protocol": "socks", "settings": {"udp": true, "auth": "noauth"}, "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}}, {"tag": "http", "port": 10809, "listen": "127.0.0.1", "protocol": "http", "settings": {"allowTransparent": false}, "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}}],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "185.22.234.28",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "e15b2edd-8fdd-4f7d-939f-3b5a20c16c22"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "r-fi-1.dokomon.com",
+            "allowInsecure": false
+          }
+        }
+      },
+      {"tag": "direct", "protocol": "freedom"},
+      {"tag": "block", "protocol": "blackhole"}
+    ],
+    "routing": {"domainMatcher": "hybrid", "domainStrategy": "IPIfNonMatch", "rules": [{"type": "field", "protocol": ["bittorrent"], "outboundTag": "direct"}, {"type": "field", "ip": ["geoip:private"], "outboundTag": "direct"}, {"type": "field", "network": "tcp,udp", "outboundTag": "proxy"}]}
+  },
+  {
+    "remarks": "🇸🇪 Швеция",
+    "inbounds": [{"tag": "socks", "port": 10808, "listen": "127.0.0.1", "protocol": "socks", "settings": {"udp": true, "auth": "noauth"}, "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}}, {"tag": "http", "port": 10809, "listen": "127.0.0.1", "protocol": "http", "settings": {"allowTransparent": false}, "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}}],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "185.22.234.28",
+              "port": 444,
+              "method": "aes-128-gcm",
+              "password": "e15b2edd-8fdd-4f7d-939f-3b5a20c16c22"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "r-se-1.dokomon.com",
+            "allowInsecure": false
+          }
+        }
+      },
+      {"tag": "direct", "protocol": "freedom"},
+      {"tag": "block", "protocol": "blackhole"}
+    ],
+    "routing": {"domainMatcher": "hybrid", "domainStrategy": "IPIfNonMatch", "rules": [{"type": "field", "protocol": ["bittorrent"], "outboundTag": "direct"}, {"type": "field", "ip": ["geoip:private"], "outboundTag": "direct"}, {"type": "field", "network": "tcp,udp", "outboundTag": "proxy"}]}
   },
   {
     "remarks": "⛔ ОБХОДЫ БС 👇",
